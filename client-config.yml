@@ -2,3 +2,18 @@ server:
  port: 1212
 xParam: 9999
 myName: mohammed hrimch
+spring:
+  datasource:
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/dthhubDB
+    password: root
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
