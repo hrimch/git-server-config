@@ -1,5 +1,5 @@
 server:
- port: 1212
+ port: 8002
 xParam: 9999
 myName: mohammed hrimch
 spring:
