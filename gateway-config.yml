@@ -5,7 +5,7 @@ spring:
         - id: r1
           uri: http://localhost:1212/
           predicates:
-            - Path= /v1/api/**
+            - Path= api/v1**
     discovery:
      enable: true
   application:
