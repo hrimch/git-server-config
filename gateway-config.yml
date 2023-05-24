@@ -11,4 +11,4 @@ spring:
   application:
     name: 'API Gateway'
 server:
-  port: 1111
+  port: '1111' 
