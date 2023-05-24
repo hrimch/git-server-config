@@ -1,4 +1,0 @@
-application:
-    name: 'API Gateway'
-server:
-  port: 8001
