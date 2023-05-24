@@ -3,4 +3,4 @@ eureka:
     fetchRegistry: 'false'
     registerWithEureka: 'false'
 server:
- port: 8002
+ port: 8761
