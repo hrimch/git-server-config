@@ -1,4 +1,4 @@
 application:
     name: 'API Gateway'
 server:
-  port: '1111' 
+  port: '8001' 
